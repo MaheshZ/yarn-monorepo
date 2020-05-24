@@ -4,6 +4,9 @@
         "packages/components",
         "packages/styles"
     ],
+    "scripts": {
+        "build": "lerna run build --stream"
+    },
     "devDependencies": {
         "lerna": "^3.21.0"
     },

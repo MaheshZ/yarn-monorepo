@@ -1,5 +1,5 @@
 {
-  "name": "components",
+  "name": "@coolwombat/components",
   "version": "1.0.0",
   "dependencies": {
     "@storybook/react": "^5.3.19",
@@ -8,7 +8,7 @@
     "cross-env": "5.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "styles": "1.0.0"
+    "@coolwombat/styles": "1.0.0"
   },
   "scripts": {
     "build": " ./node_modules/.bin/babel src/* -o umd/components.js",
