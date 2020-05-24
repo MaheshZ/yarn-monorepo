@@ -1,8 +1,11 @@
 {
   "name": "@coolwombat/styles",
   "version": "1.0.2",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "cross-env": "5.0.5"
   },
-  "gitHead": "fc82519b7d9a777e4cc96c5a5563ef7838138260"
+  "gitHead": "bcc1be1691b4c89890fe097fa948d7fefc47d340"
 }
