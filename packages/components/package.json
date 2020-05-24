@@ -1,14 +1,14 @@
 {
   "name": "@coolwombat/components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
+    "@coolwombat/styles": "^1.0.1",
     "@storybook/react": "^5.3.19",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
     "cross-env": "5.0.5",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "@coolwombat/styles": "1.0.0"
+    "react-dom": "^16.13.1"
   },
   "scripts": {
     "build": " ./node_modules/.bin/babel src/* -o umd/components.js",

@@ -1,8 +1,7 @@
 {
-    "name": "@coolwombat/styles",
-    "version": "1.0.0",
-  
-    "dependencies": {
-      "cross-env": "5.0.5"
-    }
+  "name": "@coolwombat/styles",
+  "version": "1.0.1",
+  "dependencies": {
+    "cross-env": "5.0.5"
   }
+}
