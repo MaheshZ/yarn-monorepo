@@ -1,11 +1,11 @@
 {
   "name": "@coolwombat/components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@coolwombat/styles": "^1.0.2",
+    "@coolwombat/styles": "^1.0.3",
     "@storybook/react": "^5.3.19",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
