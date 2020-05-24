@@ -1,4 +1,11 @@
 {
     "private": true,
-    "workspaces": ["packages/components", "packages/styles"]
-  }
+    "workspaces": [
+        "packages/components",
+        "packages/styles"
+    ],
+    "devDependencies": {
+        "lerna": "^3.21.0"
+    },
+    "name": "yarn-try"
+}
