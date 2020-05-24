@@ -1,8 +1,8 @@
 {
   "name": "@coolwombat/components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {
-    "@coolwombat/styles": "^1.0.1",
+    "@coolwombat/styles": "^1.0.2",
     "@storybook/react": "^5.3.19",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
