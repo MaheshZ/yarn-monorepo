@@ -1,9 +1,11 @@
-import "react"
+import React from "react"
 
 const AppButton = props => {
     return (<div>
-        <input type="button" label="button"/>
+        <button>
+            {props.children}
+        </button>
     </div>)
 }
 
-module.exports = {AppButton}
+export {AppButton}
