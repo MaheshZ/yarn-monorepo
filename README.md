@@ -30,4 +30,3 @@ yarn run v1.22.4
 warning package.json: No license field
 $ start-storybook -p 3003
 ```
-
