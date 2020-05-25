@@ -12,3 +12,7 @@ export const withEmoji = () => (
       </span>
     </AppButton>
   );
+
+  export const withHTML = () => <AppButton >
+   <span style={{backgroundColor:'#FFAAAA'}}> My AppButton </span></AppButton>
+   
