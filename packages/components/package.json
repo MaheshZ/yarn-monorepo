@@ -1,5 +1,6 @@
 {
   "name": "@coolwombat/components",
+  "main": "dist/index.js",
   "version": "1.0.5",
   "publishConfig": {
     "access": "public"
