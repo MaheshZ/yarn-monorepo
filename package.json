@@ -10,5 +10,8 @@
     "devDependencies": {
         "lerna": "^3.21.0"
     },
-    "name": "yarn-try"
+    "name": "yarn-try",
+    "dependencies": {
+        "webpack-cli": "^3.3.11"
+    }
 }
