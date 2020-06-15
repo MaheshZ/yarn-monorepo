@@ -5,3 +5,4 @@ output
 packages/*/umd
 storybook-static
 .yarn
+dist
