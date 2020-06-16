@@ -1,12 +1,11 @@
 import babel from 'rollup-plugin-babel';
-import { eslint } from 'rollup-plugin-eslint';
 import resolve from 'rollup-plugin-node-resolve';
 import multiEntry from 'rollup-plugin-multi-entry';
-import { uglify } from 'rollup-plugin-uglify';
 import filesize from 'rollup-plugin-filesize';
 import commonjs from 'rollup-plugin-commonjs';
 import progress from 'rollup-plugin-progress';
-import css from 'rollup-plugin-css-only'
+import css from 'rollup-plugin-css-only';
+const { terser } = require('rollup-plugin-terser');
 
 let pluginOptions = [
   multiEntry(),
@@ -22,12 +21,15 @@ let pluginOptions = [
   commonjs(),
   // eslint(),
   progress(),
-  // uglify(),
   filesize({
     showGzippedSize: false,
   })
 ];
 
+console.log('NODE_ENV', process.env.NODE_ENV)
+if (process.env.NODE_ENV === 'production'){
+  pluginOptions.push(terser())
+}
 
 export default {
     input: './src/index.js',
