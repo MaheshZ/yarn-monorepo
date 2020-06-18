@@ -15,6 +15,9 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
+  "files":[
+    "dist/**/*"
+  ],
   "scripts": {
     "build-babel": " ./node_modules/.bin/babel src/**/* -o umd/index.js",
     "build-wp": "webpack --mode production",
