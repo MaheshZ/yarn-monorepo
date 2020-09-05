@@ -8,26 +8,28 @@
   "dependencies": {
     "@coolwombat/styles": "^1.0.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.2"
   },
-  "files":[
+  "files": [
     "dist/**/*"
   ],
   "scripts": {
     "build-babel": " ./node_modules/.bin/babel src/**/* -o umd/index.js",
-    "build-wp": "webpack --mode production",
+    "build": "webpack --mode production",
     "start": "yarn storybook",
     "storybook": "start-storybook -p 3003"
   },
   "devDependencies": {
-    "@storybook/react": "^5.3.19",
-    "cross-env": "5.0.5",
-    "css-loader": "^3.6.0",
     "@babel/cli": "7.8.4",
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.10.1",
+    "@storybook/react": "^5.3.19",
     "babel-loader": "^8.1.0",
+    "cross-env": "5.0.5",
+    "css-loader": "^3.6.0",
     "rollup": "^2.16.1",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",

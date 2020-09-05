@@ -5,7 +5,8 @@
     "access": "public"
   },
   "dependencies": {
-    "cross-env": "5.0.5"
+    "cross-env": "5.0.5",
+    "scss-bundle": "^3.1.2"
   },
   "gitHead": "bcc1be1691b4c89890fe097fa948d7fefc47d340"
 }
